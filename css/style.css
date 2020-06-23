@@ -226,11 +226,6 @@ form{
 
 
 
-
-/* @media screen 
-  and (max-width: 360px) 
-  and (max-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) */
   @media only screen and (max-width:500px)
    {
 
@@ -239,11 +234,28 @@ form{
 }
 
 .navbar{
-    width: 153%;
+    width: 161%;
+    
 }
 
-.logo{
-    padding: 20px 164px;
+.logo {
+    padding: 18px 267px;
+}
+
+.main .center {
+    position: absolute;
+    top: 52%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center {
+    border-radius: 30px;
+    background: rgba(0, 65, 85, 0.7);
+    width: 120%;
+    margin: 54%;
 }
 
 .center h1 {
@@ -264,17 +276,15 @@ form{
 
 .navbar ul li {
     list-style: none;
-    margin: -5px;
+    margin: 16px;
     display: inline-block;
-    line-height: 80px;
-}
-.center .buttons {
-    margin: 40px 275px;
+    line-height: 48px;
 }
 
 .buttons button {
-    height: 54px;
-    width: 132px;
+    margin: -48px -86px -43px -66px;
+    height: 46px;
+    width: 145px;
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -287,6 +297,11 @@ form{
 }
 
 
+.buttons .btn{
+    margin: -48px -59px -43px -211px;
+}
+
+
 footer {
     margin-top: 136vh;
     background: rgb(0, 65, 85);
@@ -294,6 +309,44 @@ footer {
     height: 108px;
     color: white;
 }
+
+/* about page */
+.about-p {
+    height: 166px;
+    width: 385px;
+    margin: 9px -247px;
+}
+
+.about-h {
+    height: 29px;
+    /* width: 385px; */
+    margin: -4px 10px 10px -111px;
+}
+
+
+.center .about ul li {
+    margin: -1px -199px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* contact */
+
+form {
+    margin: 20px 20px;
+    width: 92%;
+    padding: 40px;
+    font-weight: bolder;
+}
+ 
+.contact-h{
+    margin: 20px 20px;
+}
+
+.form-control {
+    margin: 14px 57px;
+}
+
 
   }
 
